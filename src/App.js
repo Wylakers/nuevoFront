@@ -17,6 +17,8 @@ import {
   AdvancedBuilding,
   CarritoCompras,
   NotFound,
+  Product,
+  Search,
 } from "./components/pages";
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
         <Route path="/support-ticket" element={<SupportTicket />} />
         <Route path="/advanced-build" element={<AdvancedBuilding />} />
         <Route path="/carrito" element={<CarritoCompras />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/:Nombre" element={<Product />} />
       </Routes>
     </LoginContext.Provider>
   );

@@ -94,7 +94,7 @@ const Header = ({ isHome }) => {
               </NavDropdown>
             </Nav>
             <Nav className="d-flex flex-row justify-content-between bordeBottom">
-              <Nav.Link as={Link} to={"/"} className="noBorde">
+              <Nav.Link as={Link} to={"/search"} className="noBorde">
                 <FaSearch color="white" size="1.5em " />
               </Nav.Link>
               <Nav.Link

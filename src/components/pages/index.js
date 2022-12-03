@@ -12,3 +12,5 @@ export { default as SupportTicket } from "./SupportTicket.jsx";
 export { default as AdvancedBuilding } from "./AdvancedBuilding.jsx";
 export { default as CarritoCompras } from "./CarritoCompras.jsx";
 export { default as NotFound } from "./NotFound.jsx";
+export { default as Product } from "./Product.jsx";
+export { default as Search } from "./SearchBar.jsx";
