@@ -10,15 +10,14 @@ import { Country } from "country-state-city";
 import { useNavigate } from "react-router-dom";
 import Usuario from "../../../api/Usuario";
 import Detalle from "../../../api/DetalleUsuario";
-import co1 from './images/co1.jpg';
-import memo1 from './images/memo1.jpg';
-import pro03 from './images/pro03.jpg';
-import win3 from './images/win3.jpg';
-import case01 from './images/case01.jpg';
-import sto1 from './images/sto1.jpg';
-import pow1 from './images/pow1.jpg';
-import placa01 from './images/placa01.jpg';
-
+import co1 from "./images/co1.jpg";
+import memo1 from "./images/memo1.jpg";
+import pro03 from "./images/pro03.jpg";
+import win3 from "./images/win3.jpg";
+import case01 from "./images/case01.jpg";
+import sto1 from "./images/sto1.jpg";
+import pow1 from "./images/pow1.jpg";
+import placa01 from "./images/placa01.jpg";
 
 const StyledDiv = styled.div`
   margin-bottom: 10rem;
@@ -207,179 +206,110 @@ const AccountInfo = () => {
               </li>
             </ul>
           </Col>
-          <Col>
           {activeTab === "order" && (
-            <div className='productose'>
-            <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={co1} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+            <Col xs="11" md="9">
+              <div className="productose">
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={co1} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Cooler</h1>
                     <p>Cooler</p>
-                    <p className='price'>
-                        $50
-                    </p>
-        
+                    <p className="price">$50</p>
+                  </div>
                 </div>
-                
-                </div>
-                
-        
-                <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={memo1} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={memo1} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Memory 16 GB</h1>
                     <p>Memory</p>
-                    <p className='price'>
-                        $80
-                    </p>
-        
+                    <p className="price">$80</p>
+                  </div>
                 </div>
-                
-                </div>
-                <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={pro03} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={pro03} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Processor Intel Core i5</h1>
                     <p>Processor</p>
-                    <p className='price'>
-                        $500
-                    </p>
-        
+                    <p className="price">$500</p>
+                  </div>
                 </div>
-                
-                </div>
-                <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={win3} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={win3} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Windows 7</h1>
                     <p>Windows</p>
-                    <p className='price'>
-                        $100
-                    </p>
-                    
+                    <p className="price">$100</p>
+                  </div>
                 </div>
-                
-        
-                
-                </div>
-                <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={case01} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={case01} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Case Gamer</h1>
                     <p>categoria</p>
-                    <p className='price'>
-                        $60
-                    </p>
-        
+                    <p className="price">$60</p>
+                  </div>
                 </div>
-                
-        
-                
-                </div>
-                <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={pow1} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={pow1} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Power Supply Rm 750x</h1>
                     <p>Power Supply</p>
-                    <p className='price'>
-                        $80
-                    </p>
-        
+                    <p className="price">$80</p>
+                  </div>
                 </div>
-               
-                </div>
-            
-            <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={sto1} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={sto1} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Storage 1TB</h1>
                     <p>Storage</p>
-                    <p className='price'>
-                        $80
-                    </p>
-                   
-        
+                    <p className="price">$80</p>
+                  </div>
                 </div>
-               
-                </div>
-                <div className='productor'>
-                <a href='#'>
-                
-                <div className='producto_img' >
-                    <img src={placa01} alt='' />
-        
-                
-                </div>
-                </a>
-                <div className='producto_footer'>
+                <div className="productor">
+                  <a href="#">
+                    <div className="producto_img">
+                      <img src={placa01} alt="" />
+                    </div>
+                  </a>
+                  <div className="producto_footer">
                     <h1>Main Board</h1>
                     <p>Main Board</p>
-                    <p className='price'>
-                        $70
-                    </p>
-        
+                    <p className="price">$70</p>
+                  </div>
                 </div>
-               
-                </div>
-                
-            
-            </div>
-            
-
-
+              </div>
+            </Col>
           )}
-
-
-          </Col>
           <Col xs="11" md="9" className="forma bg-light text-dark rounded ">
             {/* Content */}
             {activeTab === "profile" && (
