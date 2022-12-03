@@ -1,0 +1,24 @@
+/* FALTA */
+- BACKEND DE TODO
+- Support TICKET: FALTA HACER BACKEND PARA ENVIAR DATOS.
+
+
+
+
+/* HECHO */
+- Imagen de icono en HomePage o Home eliminarlo de Layout.
+- AccountInfo que sea responsive.
+- Footer responsive
+- Header arreglarlo en vista de telefono.
+- Revisar LogIn y CreateAccount etiqueta Form-className="w-50" para que sea responsive
+- AccountInfo usar hook para colocar los datos al costado.
+- Preguntar al profe si el header en celular se ve decente. 
+- Ranking falta. Está listo el modelo (visual y responsive) solo faltan los datos
+- Validación de datos en LogIn y CreateAccount.
+
+
+
+/* SORPRESA */
+- Validación de datos en registro y login.
+- 404 page
+- page when something goes wrong or the page doesnt work

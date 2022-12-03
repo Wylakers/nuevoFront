@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Evogria";
+  src: local("Evogria"), url(./fonts/Evogria.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Evogria";
+  font-style: italic;
+  src: local("Evogria"), url(./fonts/Evogria\ Italic.otf) format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #353f4b;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Para ocultar flecha del dropdown */
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.mt-n5 {
+  margin-top: -3rem !important;
+}
+
+.ms-n3 {
+  margin-left: -1.5rem !important;
+}
+
+.ms-n4 {
+  margin-left: -2.5rem !important;
+}
